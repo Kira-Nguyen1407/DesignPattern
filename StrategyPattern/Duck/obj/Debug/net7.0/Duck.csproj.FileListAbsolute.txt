@@ -1,0 +1,15 @@
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\bin\Debug\net7.0\Duck.exe
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\bin\Debug\net7.0\Duck.deps.json
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\bin\Debug\net7.0\Duck.runtimeconfig.json
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\bin\Debug\net7.0\Duck.dll
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\bin\Debug\net7.0\Duck.pdb
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.csproj.AssemblyReference.cache
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.AssemblyInfoInputs.cache
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.AssemblyInfo.cs
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.csproj.CoreCompileInputs.cache
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.dll
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\refint\Duck.dll
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.pdb
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\Duck.genruntimeconfig.cache
+C:\Users\T470\DesignPatternCSharp\StrategyPattern\Duck\obj\Debug\net7.0\ref\Duck.dll
