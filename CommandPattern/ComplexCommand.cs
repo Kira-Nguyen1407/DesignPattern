@@ -2,7 +2,6 @@ namespace CommandPattern{
     public class ComplexCommand : ICommand
     {
         private readonly Receiver _receiver;
-
         private readonly string _a;
         private readonly string _b;
 
@@ -15,8 +14,8 @@ namespace CommandPattern{
         public void Execute()
         {
             Console.WriteLine("ComplexCommand: Complex stuff should be done by a receiver object.");
-            Receiver.DoSomething(this._a);
-            Receiver.DoSomethingElse(this._b);
+            Receiver.DoSomething(_a);
+            Receiver.DoSomethingElse(_b);
         }
     }
 }

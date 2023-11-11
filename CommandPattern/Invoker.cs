@@ -12,12 +12,17 @@ namespace CommandPattern{
         }
 
         public void DoSomethingImportant(){
-            _onStart?.Execute();
+            Console.WriteLine("Invoker: Does anybody want something done before I begin?");
+            if(_onStart is ICommand){
+                _onStart?.Execute();
+            }
 
             Console.WriteLine("Invoker: ...doing something really important...");
+            
             Console.WriteLine("Invoker: Does anybody want something done after I finish?");
-
-            _onFinish?.Execute();
+            if(_onFinish is ICommand){
+                _onFinish?.Execute();
+            }
         }
     }
 }
