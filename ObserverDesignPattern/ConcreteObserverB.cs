@@ -1,11 +1,10 @@
 namespace ObserverPattern{
-    class ConcreteObserverB : IObserver
+    public class ObserverB : IObserver
     {
         public void Update(ISubject subject)
         {
-            if (subject is Subject { State: 0 } || subject is Subject { State: >= 2 })
-            {
-                Console.WriteLine("ConcreteObserverB: Reacted to the event.");
+            if(subject is Subject {State: >= 3}){
+                Console.WriteLine("ConcreteObserverB: Reacted to the event when State >= 3.");
             }
         }
     }

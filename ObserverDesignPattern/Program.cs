@@ -3,20 +3,19 @@
     {
         static void Main(string[] args)
         {
-            // The client code.
             var subject = new Subject();
-            var observerA = new ConcreteObserverA();
-            subject.Attach(observerA);
+            var observerA = new ObserverA();
+            var observerB = new ObserverB();
 
-            var observerB = new ConcreteObserverB();
+            subject.Attach(observerA);
             subject.Attach(observerB);
 
-            subject.SomeBusinessLogic();
-            subject.SomeBusinessLogic();
+            subject.BusinessLogic();
+            subject.BusinessLogic();
 
-            subject.Detach(observerB);
+            subject.Detach(observerA);
 
-            subject.SomeBusinessLogic();
+            subject.BusinessLogic();
         }
     }
 }
