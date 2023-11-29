@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XBNxaYx99/u0H6MiXwaEFWsqjBunVS1IgYthQwfdkgNo6ZCFT3DOdfPTJfXced64efTVO1OQ3f/8h0wRiUb0hg==",
+  "dgSpecHash": "gf63PkJmCNn7h2HauN8Z8EghXusKq/YTUAR9VWFhevwZOVDccSFnTgUS+IApPjel1VGCsp7WTRINOoLGz4eyQA==",
   "success": true,
   "projectFilePath": "E:\\DesignPatternCSharp\\FlyweightPattern\\FlyweightPattern.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\T470\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
