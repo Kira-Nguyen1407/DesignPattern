@@ -1,0 +1,17 @@
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\FlyweightPattern.exe
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\FlyweightPattern.deps.json
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\FlyweightPattern.runtimeconfig.json
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\FlyweightPattern.dll
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\FlyweightPattern.pdb
+E:\DesignPatternCSharp\FlyweightPattern\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.csproj.AssemblyReference.cache
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.AssemblyInfoInputs.cache
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.AssemblyInfo.cs
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.csproj.CoreCompileInputs.cache
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.csproj.CopyComplete
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.dll
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\refint\FlyweightPattern.dll
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.pdb
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\FlyweightPattern.genruntimeconfig.cache
+E:\DesignPatternCSharp\FlyweightPattern\obj\Debug\net7.0\ref\FlyweightPattern.dll

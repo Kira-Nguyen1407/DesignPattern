@@ -4,24 +4,25 @@ namespace FlyweightPattern{
     // flyweight, the factory either returns an existing instance or creates a
     // new one, if it doesn't exist yet.
     public class FlyweightFactory{
-        private List<Tuple<Flyweight, string>> flyweights = new List<Tuple<Flyweight, string>>();
+        private readonly List<Tuple<Flyweight, string>> flyweights = new();
 
         public FlyweightFactory(params Car[] args)
         {
             foreach (var elem in args)
             {
-                flyweights.Add(new Tuple<Flyweight, string>(new Flyweight(elem), this.getKey(elem)));
+                flyweights.Add(new Tuple<Flyweight, string>(new Flyweight(elem), GetKey(elem)));
             }
         }
 
         // Returns a Flyweight's string hash for a given state.
-        public string getKey(Car key)
+        public static string GetKey(Car key)
         {
-            List<string> elements = new List<string>();
-
-            elements.Add(key.Model);
-            elements.Add(key.Color);
-            elements.Add(key.Company);
+            List<string> elements = new()
+            {
+                key.Model,
+                key.Color,
+                key.Company
+            };
 
             if (key.Owner != null && key.Number != null)
             {
@@ -38,7 +39,7 @@ namespace FlyweightPattern{
         // one.
         public Flyweight GetFlyweight(Car sharedState)
         {
-            string key = this.getKey(sharedState);
+            string key = GetKey(sharedState);
 
             var existingFlyweight = flyweights.FirstOrDefault(t => t.Item2 == key);
             
