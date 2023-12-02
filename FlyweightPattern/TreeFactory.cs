@@ -1,6 +1,6 @@
 namespace FlyweightPattern{
     public class TreeFactory{
-        private static Dictionary<(string, string, string), TreeType> _treeTypes = new();
+        private readonly static Dictionary<(string, string, string), TreeType> _treeTypes = new();
 
         public static TreeType GetTreeType(string name, string color, string texture){
             var key = (name, color, texture);

@@ -1,16 +1,17 @@
 namespace FlyweightPattern{
     public class Tree{
-        private int _x, _y;
-        private TreeType _treeType;
+        private readonly int _x;
+        private readonly int _y;
+        private readonly TreeType _type;
 
-        public Tree(int x, int y, TreeType treeType){
+        public Tree(int x, int y, TreeType type){
             _x = x;
             _y = y;
-            _treeType = treeType;
+            _type = type;
         }
 
         public void Draw(){
-            _treeType.Draw(_x, _y);
+            _type.Draw(_x, _y);
         }
     }
 }

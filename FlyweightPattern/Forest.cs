@@ -1,11 +1,11 @@
 namespace FlyweightPattern{
     public class Forest{
-        private List<Tree> _trees = new();
+        private readonly List<Tree> _trees = new();
 
         public void PlantTree(int x, int y, string name, string color, string texture){
             TreeType type = TreeFactory.GetTreeType(name, color, texture);
-            Tree tree = new(x, y, type);
-            _trees.Add(tree);
+            Tree newTree = new(x,y,type);
+            _trees.Add(newTree);
         }
 
         public void Draw(){
