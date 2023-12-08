@@ -1,0 +1,15 @@
+E:\DesignPatternCSharp\StatePattern\bin\Debug\net7.0\StatePattern.exe
+E:\DesignPatternCSharp\StatePattern\bin\Debug\net7.0\StatePattern.deps.json
+E:\DesignPatternCSharp\StatePattern\bin\Debug\net7.0\StatePattern.runtimeconfig.json
+E:\DesignPatternCSharp\StatePattern\bin\Debug\net7.0\StatePattern.dll
+E:\DesignPatternCSharp\StatePattern\bin\Debug\net7.0\StatePattern.pdb
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.csproj.AssemblyReference.cache
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.AssemblyInfoInputs.cache
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.AssemblyInfo.cs
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.csproj.CoreCompileInputs.cache
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.dll
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\refint\StatePattern.dll
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.pdb
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\StatePattern.genruntimeconfig.cache
+E:\DesignPatternCSharp\StatePattern\obj\Debug\net7.0\ref\StatePattern.dll
